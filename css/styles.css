@@ -1,0 +1,345 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header */
+
+.logo-blue {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4d5ae5;
+}
+
+.logo-dark {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.header-link:is(:hover, :focus) {
+  color: #404bbf;
+}
+
+.header-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+.header-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+.header-mail:is(:hover, :focus) {
+  color: #404bbf;
+}
+
+.header-tel:is(:hover, :focus) {
+  color: #404bbf;
+}
+/* main */
+
+/* section-1 */
+.section-1 {
+}
+.section-1-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.button:is(:hover, :focus) {
+  background: #404bbf;
+}
+
+/* section-2 */
+.section-2 {
+}
+.section-2-list {
+}
+.section-2-item {
+}
+.section-2-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.section-2-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+
+/* section-3 */
+
+.section-3 {
+}
+.section-3-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.section-3-list {
+}
+.list {
+}
+.section-3-item {
+}
+
+/* section-4 */
+.section-4 {
+}
+.section-4-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.section-4-list {
+}
+.list {
+}
+.section-4-item {
+}
+.section-4-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #41422e;
+}
+.section-4-occupation {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+
+/* footer */
+.footer {
+}
+
+.footer-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* CORNFLOWER */
+
+  color: #e7e9fc;
+}
+
+/* Portfolio */
+
+/* filters */
+.filters {
+}
+.filters-list {
+}
+.list {
+}
+.filters-item {
+}
+.filters-item-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  /* IRIS */
+
+  color: #4d5ae5;
+}
+.filters-item-button:is(:hover, :focus) {
+  /* OCEAN */
+
+  background: #404bbf;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+
+/* sections */
+.filters {
+}
+.filters-list {
+}
+.list {
+}
+.filters-item {
+}
+.filters-item-button {
+}
+.row {
+}
+.row-list {
+}
+.row-item {
+}
+.row-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.row-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
