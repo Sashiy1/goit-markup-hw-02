@@ -1,6 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 .link {
@@ -14,26 +15,35 @@ body {
 /* header */
 
 .logo-blue {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 21px;
+  /* identical to box height */
 
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
+  /* IRIS */
+
   color: #4d5ae5;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .logo-dark {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 21px;
   /* identical to box height */
 
   display: flex;
@@ -44,10 +54,17 @@ body {
   /* NAVY BLUE */
 
   color: #2e2f42;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
+
+
 .header-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -60,25 +77,25 @@ body {
   color: #404bbf;
 }
 
-.header-mail {
+
+.address-list {
   font-style: normal;
+}
+
+
+.header-mail {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-
   color: #434455;
 }
 
 .header-tel {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-
   color: #434455;
 }
 
