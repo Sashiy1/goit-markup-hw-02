@@ -160,11 +160,11 @@ body {
 
 .what-we-do {
 }
-.what-we-do-title {
+.title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 1.11;
   /* identical to box height, or 111% */
 
   text-align: center;
@@ -189,7 +189,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   /* identical to box height, or 111% */
 
   text-align: center;
