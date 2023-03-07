@@ -19,7 +19,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   /* identical to box height */
 
   display: flex;
@@ -43,7 +43,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   /* identical to box height */
 
   display: flex;
@@ -79,7 +79,7 @@ body {
   font-style: normal;
 }
 
-.header-link {
+.header-address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
