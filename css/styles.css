@@ -97,13 +97,14 @@ body {
 }
 
 /* section-1 */
-.section-1 {
+.description {
+  background-color: #2e2f42;
 }
-.section-1-title {
+.description-title {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   /* or 107% */
 
   text-align: center;
@@ -112,6 +113,7 @@ body {
   color: #ffffff;
 }
 .button {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -124,6 +126,7 @@ body {
 
   color: #ffffff;
   background: #4d5ae5;
+  cursor: pointer
 }
 .button:is(:hover, :focus) {
   background: #404bbf;
