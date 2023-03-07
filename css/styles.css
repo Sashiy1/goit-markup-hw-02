@@ -126,7 +126,7 @@ body {
 
   color: #ffffff;
   background: #4d5ae5;
-  cursor: pointer
+  cursor: pointer;
 }
 .button:is(:hover, :focus) {
   background: #404bbf;
@@ -143,26 +143,16 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-
+  line-height: 1.2;
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
   color: #2e2f42;
 }
 .about-us-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-
+  line-height: 1.5;
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
   color: #434455;
 }
 
