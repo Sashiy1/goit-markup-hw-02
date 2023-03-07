@@ -80,27 +80,21 @@ body {
 }
 
 .header-address-link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    
-    letter-spacing: 0.02em;
-    
-    /* SLATE */
-    
-    color: #434455;
-    
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
 }
 
-.header-mail:is(:hover, :focus) {
+.header-address-link:is(:hover, :focus) {
   color: #404bbf;
 }
-
-.header-tel:is(:hover, :focus) {
-  color: #404bbf;
-}
-/* main */
 
 /* section-1 */
 .section-1 {
