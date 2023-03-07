@@ -113,7 +113,7 @@ body {
   color: #ffffff;
 }
 .button {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -139,7 +139,7 @@ body {
 }
 .section-2-item {
 }
-.section-2-title {
+.about-us-title {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -152,7 +152,7 @@ body {
 
   color: #2e2f42;
 }
-.section-2-text {
+.about-us-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
