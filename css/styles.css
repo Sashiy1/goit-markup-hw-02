@@ -20,19 +20,11 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* IRIS */
-
   color: #4d5ae5;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -44,19 +36,11 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* NAVY BLUE */
-
   color: #2e2f42;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -67,7 +51,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: #2e2f42;
 }
 
@@ -83,12 +66,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
   color: #434455;
 }
 
@@ -105,11 +83,8 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  /* or 107% */
-
   text-align: center;
   letter-spacing: 0.02em;
-
   color: #ffffff;
 }
 .button {
@@ -118,12 +93,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
@@ -133,14 +105,6 @@ body {
 }
 
 /* section-2 */
-.section-2 {
-}
-.title {
-}
-.section-2-list {
-}
-.section-2-item {
-}
 .about-us-title {
   font-style: normal;
   font-weight: 500;
@@ -159,80 +123,36 @@ body {
 }
 
 /* section-3 */
-
-.what-we-do {
-}
 .what-we-do-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  /* identical to box height, or 111% */
-
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  /* NAVY BLUE */
-
   color: #2e2f42;
-}
-.section-3-list {
-}
-.list {
-}
-.section-3-item {
 }
 
 /* section-4 */
-.section-4 {
-}
-.section-4-title {
+.our-team {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  /* identical to box height, or 111% */
-
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  /* NAVY BLUE */
-
   color: #2e2f42;
 }
-.section-4-list {
-}
 
-.section-4-item {
-}
-.section-4-name {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
-  color: #41422e;
-}
 .section-occupation {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   text-align: center;
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
   color: #434455;
 }
 
@@ -250,89 +170,46 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
   letter-spacing: 0.02em;
-
-  /* CORNFLOWER */
-
   color: #e7e9fc;
 }
 
 /* Portfolio */
 
 /* filters */
-.filters {
-}
-.filters-list {
-}
-
-.filters-item {
-}
 .filters-item-button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-
-  /* IRIS */
-
   color: #4d5ae5;
-
   cursor: pointer;
 }
 .filters-item-button:is(:hover, :focus) {
-  /* OCEAN */
-
   background: #404bbf;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-
   color: #ffffff;
 }
 
 /* sections */
-.filters {
-}
-.filters-list {
-}
 
-.filters-item {
-}
-.filters-item-button {
-}
-.row {
-}
-.row-list {
-}
-.row-item {
-}
 .row-title {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  /* identical to box height, or 120% */
-
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
   color: #2e2f42;
 }
 .row-text {
@@ -340,11 +217,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
   color: #434455;
 }
