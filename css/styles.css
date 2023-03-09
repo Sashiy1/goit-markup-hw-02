@@ -270,6 +270,7 @@ body {
 .filters-item {
 }
 .filters-item-button {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -284,6 +285,8 @@ body {
   /* IRIS */
 
   color: #4d5ae5;
+
+  cursor: pointer;
 }
 .filters-item-button:is(:hover, :focus) {
   /* OCEAN */
