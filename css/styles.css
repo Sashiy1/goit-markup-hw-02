@@ -222,7 +222,7 @@ body {
 
   color: #41422e;
 }
-.section-4-occupation {
+.section-occupation {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -239,6 +239,11 @@ body {
 
 /* footer */
 .footer {
+  background-color: #2e2f42;
+}
+
+.logo-light {
+  color: #f4f4fd;
 }
 
 .footer-text {
